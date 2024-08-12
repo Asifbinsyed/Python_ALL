@@ -12,9 +12,19 @@ elif status == 404:
 else: 
     print('something wrong')
     
-# By using the match and case, you can achieve same feat with cleaner code. 
 
-match status: 
+
+# By using the match and case, you can achieve same feat with cleaner code.
+
+match status:
+    case 401:
+        print("Bad request")
+    case 402:
+        print("Forbidden")
+    case 404:
+        print("site not found")
+    case _:
+        print("something wrong")
     case 401: 
         print("Bad request ")
     
