@@ -18,3 +18,5 @@ except NegativeException as e :
     print(e.args)
     print(e.custom_method())
     
+                                                             
+    
