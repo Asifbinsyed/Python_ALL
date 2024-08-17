@@ -10,3 +10,6 @@ def get_length(item:str) -> str :
     
     
 get_length()
+
+
+print("hello")
